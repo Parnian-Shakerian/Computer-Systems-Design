@@ -1,0 +1,8 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: F:/HW4_99400064/q1/q1/src/q1.vhd" 
+MESSAGE "Compile Entity "q1block"" 
+MESSAGE "Compile Architecture "behavioral" of Entity "q1block"" 
+MESSAGE "File: F:/HW4_99400064/q1/q1/src/TestBench/q1block_TB.vhd" 
+MESSAGE "Compile Entity "q1block_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "q1block_tb"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]" 

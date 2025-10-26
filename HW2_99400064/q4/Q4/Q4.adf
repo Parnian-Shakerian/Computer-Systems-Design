@@ -1,0 +1,36 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Q4
+[Library]
+Q4=.\Q4\Q4.lib
+[$LibMap$]
+Q4=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/Q4.vhd=-1
+/wave4.asdb=-1
+/wave4.awc=-1
+TestBench/alarm_clock_TB.vhd=-1
+TestBench/alarm_clock_TB_runtest.do=-1
+[Files.Data]
+.\src\Q4.vhd=VHDL Source Code
+.\src\wave4.asdb=Accelerated Waveform File
+.\src\wave4.awc=Accelerated Waveform Configuration
+.\src\TestBench\alarm_clock_TB.vhd=VHDL Test Bench
+.\src\TestBench\alarm_clock_TB_runtest.do=Macro
+[HierarchyViewer]
+HierarchyInformation=alarm_clock_tb|testbench_for_alarm_clock|1
+ShowHide=ShowTopLevel
+Selected=
+[Groups]
+TestBench=1

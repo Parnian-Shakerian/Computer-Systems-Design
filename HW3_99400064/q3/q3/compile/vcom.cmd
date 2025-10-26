@@ -1,0 +1,1 @@
+-w -erf F:/HW3_99400064/q3/q3/compile/q3.erf -d F:/HW3_99400064/q3/q3/compile -s F:/HW3_99400064/q3/library.cfg -j F:/HW3_99400064/q3/q3/projlib.cfg -work q3 -O3 -e 100 -work q3 -2002 F:/HW3_99400064/q3/q3/src/q3.vhd 

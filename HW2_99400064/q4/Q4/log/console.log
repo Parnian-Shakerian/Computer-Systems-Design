@@ -1,0 +1,268 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work Q4 -2002  $dsn/src/Q4.vhd $dsn/src/TestBench/alarm_clock_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/UNI/CAD/HW2_99400064/q4/Q4/src/Q4.vhd
+# Compile Entity "alarm_clock"
+# Compile Architecture "Behavioral" of Entity "alarm_clock"
+# File: F:/UNI/CAD/HW2_99400064/q4/Q4/src/TestBench/alarm_clock_TB.vhd
+# Compile Entity "alarm_clock_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "alarm_clock_tb"
+# Compile Configuration "TESTBENCH_FOR_alarm_clock"
+# Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]
+acom -O3 -e 100 -work Q4 -2002  $dsn/src/Q4.vhd $dsn/src/TestBench/alarm_clock_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/UNI/CAD/HW2_99400064/q4/Q4/src/Q4.vhd
+# Compile Entity "alarm_clock"
+# Compile Architecture "Behavioral" of Entity "alarm_clock"
+# File: F:/UNI/CAD/HW2_99400064/q4/Q4/src/TestBench/alarm_clock_TB.vhd
+# Compile Entity "alarm_clock_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "alarm_clock_tb"
+# Compile Configuration "TESTBENCH_FOR_alarm_clock"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim -O5 +access +r +m+testbench_for_alarm_clock testbench_for_alarm_clock
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5447 kB (elbread=427 elab2=4881 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location F:\UNI\CAD\HW2_99400064\q4\Q4\src\wave.asdb
+#  11:32 PM, Thursday, June 1, 2023
+#  Simulation has been initialized
+run 100 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 00:00
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 00:00
+# EXECUTION:: Time: 10 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 10 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 00:00
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 00:00
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 50 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 50 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 70 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 70 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 80 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 80 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 90 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 90 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 110 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 110 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 120 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 120 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 130 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 130 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 160 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 160 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 170 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 170 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 180 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 180 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 190 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 190 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 200 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 200 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 210 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 210 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 220 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 220 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 230 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 230 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 240 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 240 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 250 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 250 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 260 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 260 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 270 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 270 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 280 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 280 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 290 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 290 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 300 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 300 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# KERNEL: stopped at time: 300 ns
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Q4 -2002  $dsn/src/Q4.vhd $dsn/src/TestBench/alarm_clock_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/UNI/CAD/HW2_99400064/q4/Q4/src/Q4.vhd
+# Compile Entity "alarm_clock"
+# Compile Architecture "Behavioral" of Entity "alarm_clock"
+# File: F:/UNI/CAD/HW2_99400064/q4/Q4/src/TestBench/alarm_clock_TB.vhd
+# Compile Entity "alarm_clock_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "alarm_clock_tb"
+# Compile Configuration "TESTBENCH_FOR_alarm_clock"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+testbench_for_alarm_clock testbench_for_alarm_clock
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5447 kB (elbread=427 elab2=4881 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location F:\UNI\CAD\HW2_99400064\q4\Q4\src\wave.asdb
+#  11:33 PM, Thursday, June 1, 2023
+#  Simulation has been initialized
+run 100 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 00:00
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 00:00
+# EXECUTION:: Time: 10 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 10 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 00:00
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 00:00
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 50 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 50 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 70 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 70 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 80 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 80 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 90 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 90 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Time: 01:00
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# EXECUTION:: NOTE   : Alarm: 'U'
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /alarm_clock_tb,  Process: monitor_process.
+# KERNEL: stopped at time: 100 ns

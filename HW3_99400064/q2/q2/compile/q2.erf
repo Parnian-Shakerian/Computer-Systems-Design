@@ -1,0 +1,7 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: F:/HW3_99400064/q2/q2/src/q2.vhd" 
+MESSAGE "Compile Package "recursive_functions"" 
+MESSAGE "Compile Package Body "recursive_functions"" 
+MESSAGE "Compile Entity "BinaryReverser"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "BinaryReverser"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]" 

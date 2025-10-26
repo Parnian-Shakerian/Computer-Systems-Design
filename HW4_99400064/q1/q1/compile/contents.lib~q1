@@ -1,0 +1,8 @@
+55
+~E 1 "../src/q1.vhd" 4 q1block
+~A 1 "../src/q1.vhd" 11 behavioral
+~E 1 "../src/TestBench/q1block_TB.vhd" 4 q1block_tb
+~A 1 "../src/TestBench/q1block_TB.vhd" 7 TB_ARCHITECTURE
+~C 1 "../src/TestBench/q1block_TB.vhd" 72 testbench_for_q1block
+~E 1 "../src/q1.vhd" 4 zero_block
+~A 1 "../src/q1.vhd" 14 behavioral

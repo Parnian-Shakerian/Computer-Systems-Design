@@ -1,0 +1,45 @@
+timestamp=1685649789455
+
+[~A]
+ModifyID=59
+Version=74
+
+[~MFT]
+0=6|0Q4.mgf|138858|131325
+1=6|1Q4.mgf|357550|350915
+3=4|3Q4.mgf|43315|41807
+
+[alarm_clock]
+A/behavioral=A/Behavioral 21|../src/Q4.vhd|21|1*350915
+BinW64/behavioral=3*41807
+I=0*1055
+I/behavioral=I/Behavioral 0*138151
+M=11|2|vef|1684937980174|../src/Q4.vhd|0*281*0x95657795defe66623caaacdcaea3b52f0dd01154|0*977*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1685649789414|../src/Q4.vhd|0*31121*0x88ab2a87634a673fbf27f2e9f8c6efac32faba09|0*32688*0x20116f55b147878295aeff36dce7fc50
+R=../src/Q4.vhd|6
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|9c2a8a65c4bcd8a45517a895ef084f9270bf700b5402ac97406bf16646f53a1a22c9fa8d70ad74a8c93dbdf63decfdfe
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4d45e5d4e32e7943a570fde361077a8c1
+
+[alarm_clock_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/alarm_clock_TB.vhd|9|1*353728
+BinW64/tb_architecture=3*43315
+I=0*3816
+I/tb_architecture=I/TB_ARCHITECTURE 0*138482
+M=11|2|vef|1684937980197|../src/Q4.vhd|0*3499*0x894c574052ac92ead04b7fc2e12b734b650eec52|0*3735*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|vef|1685649789447|../src/TestBench/alarm_clock_TB.vhd|0*124915*0xe6dc1c99f3bdb60b21289e456366b40db82b0dd6|0*127363*0x20116f55b147878295aeff36dce7fc50
+R=../src/Q4.vhd|87
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|03139f0587c4fdc501b88daf179f76d0d331bc0fe7e992f1a35e6ae1d026438bedf45a923c5687a2613e04159bec2148
+Version/tb_architecture=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534beae097223948c1df77ac85f9c7c532eaed
+
+[testbench_for_alarm_clock]
+Configures=alarm_clock_tb.TB_ARCHITECTURE
+E=1*357550
+I=0*138858
+M=2|2|vef|1685649789450|../src/TestBench/alarm_clock_TB.vhd|0*127861*0x314fa8082125118ddc2aa8c88da4ab1aa38f72e0|0*128179*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/alarm_clock_TB.vhd|122
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e5dece142d9726825db9fa49af207408ee4b07103a3f1f9038157c06394cb602ee1e4db529b50994a7233e62f75c856eee
+
+[~U]
+alarm_clock=11|0*0|
+alarm_clock_tb=11|0*3365|
+testbench_for_alarm_clock=TESTBENCH_FOR_alarm_clock 2||

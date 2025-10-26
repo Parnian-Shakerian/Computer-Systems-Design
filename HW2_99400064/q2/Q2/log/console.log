@@ -1,0 +1,80 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work Q2 -2002  $dsn/src/Q2.vhd $dsn/src/TestBench/radical_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/cad/HW2_99400064/q2/Q2/src/Q2.vhd
+# Compile Entity "Radical"
+# Compile Architecture "Behavioral" of Entity "Radical"
+# File: F:/cad/HW2_99400064/q2/Q2/src/TestBench/radical_TB.vhd
+# Compile Entity "radical_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "radical_tb"
+# Compile Configuration "TESTBENCH_FOR_radical"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+asim -O5 +access +r +m+Radical Radical Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5565 kB (elbread=427 elab2=4999 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location F:\cad\HW2_99400064\q2\Q2\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  8:07 PM, Thursday, June 1, 2023
+#  Simulation has been initialized
+# VSIM: 2 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'F:/cad/HW2_99400064/q2/Q2/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Q2 -2002  $dsn/src/Q2.vhd $dsn/src/TestBench/radical_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/cad/HW2_99400064/q2/Q2/src/Q2.vhd
+# Compile Entity "Radical"
+# Compile Architecture "Behavioral" of Entity "Radical"
+# File: F:/cad/HW2_99400064/q2/Q2/src/TestBench/radical_TB.vhd
+# Compile Entity "radical_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "radical_tb"
+# Compile Configuration "TESTBENCH_FOR_radical"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work Q2 -2002  $dsn/src/TestBench/radical_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/cad/HW2_99400064/q2/Q2/src/TestBench/radical_TB.vhd
+# Compile Entity "radical_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "radical_tb"
+# Compile Configuration "TESTBENCH_FOR_radical"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Q2 -2002  $dsn/src/Q2.vhd $dsn/src/TestBench/radical_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/cad/HW2_99400064/q2/Q2/src/Q2.vhd
+# Compile Entity "Radical"
+# Compile Architecture "Behavioral" of Entity "Radical"
+# File: F:/cad/HW2_99400064/q2/Q2/src/TestBench/radical_TB.vhd
+# Compile Entity "radical_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "radical_tb"
+# Compile Configuration "TESTBENCH_FOR_radical"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+# Waveform file 'untitled.awc' connected to 'F:/cad/HW2_99400064/q2/Q2/src/wave1.asdb'.
+# Waveform file 'F:/cad/HW2_99400064/q2/Q2/src/wave1.awc' connected to 'F:/cad/HW2_99400064/q2/Q2/src/wave1.asdb'.
+acom -O3 -e 100 -work Q2 -2002  $dsn/src/Q2.vhd $dsn/src/TestBench/radical_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/cad/HW2_99400064/q2/Q2/src/Q2.vhd
+# Compile Entity "Radical"
+# Compile Architecture "Behavioral" of Entity "Radical"
+# File: F:/cad/HW2_99400064/q2/Q2/src/TestBench/radical_TB.vhd
+# Compile Entity "radical_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "radical_tb"
+# Compile Configuration "TESTBENCH_FOR_radical"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]

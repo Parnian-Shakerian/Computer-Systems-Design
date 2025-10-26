@@ -1,0 +1,1 @@
+-w -erf F:/cad/HW2_99400064/q3/Q3/compile/Q3.erf -d F:/cad/HW2_99400064/q3/Q3/compile -s F:/cad/HW2_99400064/q3/library.cfg -j F:/cad/HW2_99400064/q3/Q3/projlib.cfg -work Q3 -O3 -e 100 -work Q3 -2002 F:/cad/HW2_99400064/q3/Q3/src/Q3.vhd F:/cad/HW2_99400064/q3/Q3/src/TestBench/q3_TB.vhd 

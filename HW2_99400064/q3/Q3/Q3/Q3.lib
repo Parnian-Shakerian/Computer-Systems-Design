@@ -1,0 +1,45 @@
+timestamp=1685637642210
+
+[~A]
+ModifyID=26
+Version=74
+
+[~MFT]
+0=6|0Q3.mgf|32590|29163
+1=6|1Q3.mgf|64222|61749
+3=4|3Q3.mgf|8676|8160
+
+[q3]
+A/behavioral=A/Behavioral 21|../src/Q3.vhd|11|1*61749
+BinW64/behavioral=3*8160
+I=0*524
+I/behavioral=I/Behavioral 0*32058
+M=11|2|vef|1685341554016|../src/Q3.vhd|0*194*0xfaa497cc9f77404f56c2b893b48d1718d57694df|0*455*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1685637642180|../src/Q3.vhd|0*25285*0x8cbfb3232688eb2c41e42a9e8fad3f5b297b1684|0*25775*0x20116f55b147878295aeff36dce7fc50
+R=../src/Q3.vhd|5
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|aad7ed63caf56be2b6b3bae26d3b06d16b018add7fd65c4d94ec0b34b3be92d0
+Version/behavioral=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4d555b498a538cc811bbb344a9b13e0df
+
+[q3_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/q3_TB.vhd|8|1*62872
+BinW64/tb_architecture=3*8676
+I=0*1944
+I/tb_architecture=I/TB_ARCHITECTURE 0*32305
+M=11|2|vef|1685341554022|../src/Q3.vhd|0*1696*0xd658c4bdd9080e93a59772a22beaa08bbbf7110f|0*1872*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|vef|1685637642200|../src/TestBench/q3_TB.vhd|0*26105*0xd7b99e6e88cd64d1e3a92e8e3e4c44b1301485fb|0*26610*0x20116f55b147878295aeff36dce7fc50
+R=../src/Q3.vhd|47
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|56e0b3325e84424cde5ee1f7e0f7b83d933eb5691da09ec77a151d30db3713d5
+Version/tb_architecture=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea25d898332c9dbe5b8ac8905eec9aa0e6
+
+[testbench_for_q3]
+Configures=q3_tb.TB_ARCHITECTURE
+E=1*64222
+I=0*32590
+M=2|2|vef|1685637642203|../src/TestBench/q3_TB.vhd|0*26999*0x449ecda18b64327624a47cedeff95253869dd709|0*27245*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/q3_TB.vhd|40
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e52371b7fb133ecd9359c92d132edae23b8cde7375ca2962bbd3c0b159a504f226
+
+[~U]
+q3=Q3 11|0*0|
+q3_tb=11|0*1580|
+testbench_for_q3=TESTBENCH_FOR_q3 2||

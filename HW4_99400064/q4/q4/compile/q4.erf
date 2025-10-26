@@ -1,0 +1,7 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: F:/HW4_99400064/q4/q4/src/q4.vhd" 
+MESSAGE "Compile Package "utils"" 
+MESSAGE "Compile Package Body "utils"" 
+MESSAGE "Compile Entity "binary_to_unary"" 
+MESSAGE "Compile Architecture "behavioral" of Entity "binary_to_unary"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

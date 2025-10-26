@@ -1,0 +1,11 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Waveform file 'F:/HW4_99400064/q4/q4/src/wave1.awc' connected to 'F:/HW4_99400064/q4/q4/src/wave1.asdb'.
+acom -O3 -e 100 -work q4 -2002  $dsn/src/q4.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/HW4_99400064/q4/q4/src/q4.vhd
+# Compile Package "utils"
+# Compile Package Body "utils"
+# Compile Entity "binary_to_unary"
+# Compile Architecture "behavioral" of Entity "binary_to_unary"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]

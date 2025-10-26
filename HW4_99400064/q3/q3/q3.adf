@@ -1,0 +1,32 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=q3
+[Library]
+q3=.\q3\q3.lib
+[$LibMap$]
+q3=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/q3.vhd=-1
+TestBench/mealy_moore_code_TB.vhd=-1
+TestBench/mealy_moore_code_TB_runtest.do=-1
+[Files.Data]
+.\src\q3.vhd=VHDL Source Code
+.\src\TestBench\mealy_moore_code_TB.vhd=VHDL Source Code
+.\src\TestBench\mealy_moore_code_TB_runtest.do=Macro
+[HierarchyViewer]
+HierarchyInformation=mealy_fsm|behavioral|0
+ShowHide=ShowTopLevel
+Selected=
+[Groups]
+TestBench=1

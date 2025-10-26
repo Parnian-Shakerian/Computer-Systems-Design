@@ -1,0 +1,1 @@
+-w -erf F:/HW4_99400064/q4/q4/compile/q4.erf -d F:/HW4_99400064/q4/q4/compile -s F:/HW4_99400064/q4/library.cfg -j F:/HW4_99400064/q4/q4/projlib.cfg -work q4 -O3 -e 100 -work q4 -2002 F:/HW4_99400064/q4/q4/src/q4.vhd 

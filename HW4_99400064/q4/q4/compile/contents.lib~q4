@@ -1,0 +1,10 @@
+41
+~E 1 "../src/q4.vhd" 49 binary_to_unary
+~A 1 "../src/q4.vhd" 56 behavioral
+~E 1 "../src/q4.vhd" 5 BinaryToUnary
+~A 1 "../src/q4.vhd" 13 Behavioral
+~E 1 "../src/q4.vhd" 5 convert
+~A 1 "../src/q4.vhd" 10 Behavioral
+~E 1 "../src/TestBench/convert_TB.vhd" 4 convert_tb
+~A 1 "../src/TestBench/convert_TB.vhd" 7 TB_ARCHITECTURE
+~C 1 "../src/TestBench/convert_TB.vhd" 44 testbench_for_convert

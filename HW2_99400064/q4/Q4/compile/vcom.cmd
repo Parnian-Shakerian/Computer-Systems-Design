@@ -1,0 +1,1 @@
+-w -erf F:/UNI/CAD/HW2_99400064/q4/Q4/compile/Q4.erf -d F:/UNI/CAD/HW2_99400064/q4/Q4/compile -s F:/UNI/CAD/HW2_99400064/q4/library.cfg -j F:/UNI/CAD/HW2_99400064/q4/Q4/projlib.cfg -work Q4 -O3 -e 100 -work Q4 -2002 F:/UNI/CAD/HW2_99400064/q4/Q4/src/Q4.vhd F:/UNI/CAD/HW2_99400064/q4/Q4/src/TestBench/alarm_clock_TB.vhd 

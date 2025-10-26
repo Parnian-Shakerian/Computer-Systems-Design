@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: F:/HW3_99400064/q1/q1/src/q1.vhd" 
+MESSAGE "Compile Package "MatrixPack"" 
+MESSAGE "Compile Package Body "MatrixPack"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]" 

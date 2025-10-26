@@ -1,0 +1,1 @@
+-w -erf F:/HW3_99400064/q1/q1/compile/q1.erf -d F:/HW3_99400064/q1/q1/compile -s F:/HW3_99400064/q1/library.cfg -j F:/HW3_99400064/q1/q1/projlib.cfg -work q1 -reorder -O3 -e 100 -work q1 -2002 F:/HW3_99400064/q1/q1/src/q1.vhd 

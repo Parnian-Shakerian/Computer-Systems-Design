@@ -1,0 +1,42 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 
+MESSAGE "Compile Package "q2"" 
+ERROR COMP96_0019: "Keyword 'end' expected." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 6 5
+ERROR COMP96_0015: "';' expected." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 6 5
+ERROR COMP96_0016: "Design unit declaration expected." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 6 12
+ERROR COMP96_0018: "Identifier expected." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 10 15
+MESSAGE "Compile Architecture "FSM" of Entity "sequence_detectore"" 
+ERROR COMP96_0056: "Cannot find referenced entity declaration "sequence_detectore"." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 12 5
+MESSAGE "Compile Entity "second_sequence_detectore"" 
+ERROR COMP96_0078: "Unknown identifier "std_logic"." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 45 27
+ERROR COMP96_0064: "Unknown type." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 45 27
+ERROR COMP96_0078: "Unknown identifier "std_logic"." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 46 32
+ERROR COMP96_0064: "Unknown type." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 46 32
+ERROR COMP96_0078: "Unknown identifier "std_logic"." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 47 34
+ERROR COMP96_0064: "Unknown type." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 47 34
+MESSAGE "Compile Architecture "FSM2" of Entity "second_sequence_detectore"" 
+ERROR COMP96_0056: "Cannot find referenced entity declaration "second_sequence_detectore"." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 50 5
+ERROR COMP96_0016: "Design unit declaration expected." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 79 2
+MESSAGE "Compile Package "q2"" 
+ERROR COMP96_0019: "Keyword 'is' expected." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 81 15
+ERROR COMP96_0019: "Keyword 'end' expected." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 81 15
+MESSAGE "Compile Package Body "q2"" 
+ERROR COMP96_0015: "')' expected." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 94 64
+ERROR COMP96_0019: "Keyword 'return' expected." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 94 64
+ERROR COMP96_0020: "Variable can be declared only in a process or subprogram." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 95 6
+ERROR COMP96_0020: "Variable can be declared only in a process or subprogram." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 96 6
+ERROR COMP96_0019: "Keyword 'end' expected." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 97 2
+ERROR COMP96_0015: "';' expected." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 97 2
+ERROR COMP96_0016: "Design unit declaration expected." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 98 6
+ERROR COMP96_0018: "Identifier expected." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 106 17
+MESSAGE "Compile Entity "fsm_dec"" 
+ERROR COMP96_0015: "';' expected." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 115 2
+MESSAGE "Compile Architecture "behavioral" of Entity "fsm_dec"" 
+ERROR COMP96_0015: "';' expected." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 146 17
+ERROR COMP96_0019: "Keyword 'end' expected." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 146 17
+ERROR COMP96_0015: "';' expected." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 152 17
+ERROR COMP96_0019: "Keyword 'end' expected." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 152 17
+ERROR COMP96_0015: "';' expected." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 156 7
+ERROR COMP96_0016: "Design unit declaration expected." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 156 11
+ERROR COMP96_0018: "Identifier expected." "F:/cad/HW4_99400064/q2/q2/src/q2.vhd" 164 17
+FAILURE "Compile failure 31 Errors 0 Warnings  Analysis time :  15.0 [ms]" 

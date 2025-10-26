@@ -1,0 +1,1 @@
+-w -erf F:/cad/HW2_99400064/q2/Q2/compile/Q2.erf -d F:/cad/HW2_99400064/q2/Q2/compile -s F:/cad/HW2_99400064/q2/library.cfg -j F:/cad/HW2_99400064/q2/Q2/projlib.cfg -work Q2 -O3 -e 100 -work Q2 -2002 F:/cad/HW2_99400064/q2/Q2/src/Q2.vhd F:/cad/HW2_99400064/q2/Q2/src/TestBench/radical_TB.vhd 

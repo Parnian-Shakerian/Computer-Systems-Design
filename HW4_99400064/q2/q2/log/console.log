@@ -1,0 +1,126 @@
+acom -O3 -e 100 -work q2 -2002  $dsn/src/q2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/cad/HW4_99400064/q2/q2/src/q2.vhd
+# Compile Package "q2"
+# Error: COMP96_0019: q2.vhd : (7, 5): Keyword 'end' expected.
+# Error: COMP96_0015: q2.vhd : (7, 5): ';' expected.
+# Error: COMP96_0016: q2.vhd : (7, 12): Design unit declaration expected.
+# Compile Entity "sequence_detectore"
+# Error: COMP96_0019: q2.vhd : (11, 34): Keyword 'is' expected.
+# Error: COMP96_0019: q2.vhd : (11, 34): Keyword 'end' expected.
+# Compile Architecture "FSM" of Entity "sequence_detectore"
+# Error: COMP96_0056: q2.vhd : (13, 5): Cannot find referenced entity declaration "sequence_detectore".
+# Compile Entity "second_sequence_detectore"
+# Error: COMP96_0078: q2.vhd : (84, 27): Unknown identifier "std_logic".
+# Error: COMP96_0064: q2.vhd : (84, 27): Unknown type.
+# Error: COMP96_0078: q2.vhd : (85, 32): Unknown identifier "std_logic".
+# Error: COMP96_0064: q2.vhd : (85, 32): Unknown type.
+# Error: COMP96_0078: q2.vhd : (86, 34): Unknown identifier "std_logic".
+# Error: COMP96_0064: q2.vhd : (86, 34): Unknown type.
+# Compile Architecture "FSM2" of Entity "second_sequence_detectore"
+# Error: COMP96_0056: q2.vhd : (89, 5): Cannot find referenced entity declaration "second_sequence_detectore".
+# Error: COMP96_0016: q2.vhd : (146, 5): Design unit declaration expected.
+# Compile Package "q2"
+# Error: COMP96_0019: q2.vhd : (177, 15): Keyword 'is' expected.
+# Error: COMP96_0019: q2.vhd : (177, 15): Keyword 'end' expected.
+# Compile Entity "fsm_dec"
+# Error: COMP96_0055: q2.vhd : (181, 10): Cannot find context item "work.q2".
+# Compile Architecture "behavioral" of Entity "fsm_dec"
+# Error: COMP96_0015: q2.vhd : (219, 21): ';' expected.
+# Error: COMP96_0019: q2.vhd : (219, 21): Keyword 'end' expected.
+# Error: COMP96_0015: q2.vhd : (226, 21): ';' expected.
+# Error: COMP96_0019: q2.vhd : (226, 21): Keyword 'end' expected.
+# Error: COMP96_0019: q2.vhd : (231, 17): Keyword 'process' expected.
+# Error: COMP96_0329: q2.vhd : (233, 13): Generate statement must have a label.
+# Error: COMP96_0019: q2.vhd : (233, 34): Keyword 'generate' expected.
+# Error: COMP96_0019: q2.vhd : (235, 13): Keyword 'end' expected.
+# Error: COMP96_0016: q2.vhd : (235, 19): Design unit declaration expected.
+# Error: COMP96_0019: q2.vhd : (244, 28): Keyword 'of' expected.
+# Error: COMP96_0018: q2.vhd : (244, 28): Identifier expected.
+# Compile failure 28 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -O3 -e 100 -work q2 -2002  $dsn/src/q2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/cad/HW4_99400064/q2/q2/src/q2.vhd
+# Compile Package "q2"
+# Error: COMP96_0019: q2.vhd : (6, 5): Keyword 'end' expected.
+# Error: COMP96_0015: q2.vhd : (6, 5): ';' expected.
+# Error: COMP96_0016: q2.vhd : (6, 12): Design unit declaration expected.
+# Error: COMP96_0018: q2.vhd : (10, 15): Identifier expected.
+# Compile Architecture "FSM" of Entity "sequence_detectore"
+# Error: COMP96_0056: q2.vhd : (12, 5): Cannot find referenced entity declaration "sequence_detectore".
+# Compile Entity "second_sequence_detectore"
+# Error: COMP96_0078: q2.vhd : (45, 27): Unknown identifier "std_logic".
+# Error: COMP96_0064: q2.vhd : (45, 27): Unknown type.
+# Error: COMP96_0078: q2.vhd : (46, 32): Unknown identifier "std_logic".
+# Error: COMP96_0064: q2.vhd : (46, 32): Unknown type.
+# Error: COMP96_0078: q2.vhd : (47, 34): Unknown identifier "std_logic".
+# Error: COMP96_0064: q2.vhd : (47, 34): Unknown type.
+# Compile Architecture "FSM2" of Entity "second_sequence_detectore"
+# Error: COMP96_0056: q2.vhd : (50, 5): Cannot find referenced entity declaration "second_sequence_detectore".
+# Error: COMP96_0016: q2.vhd : (79, 2): Design unit declaration expected.
+# Compile Package "q2"
+# Error: COMP96_0019: q2.vhd : (81, 15): Keyword 'is' expected.
+# Error: COMP96_0019: q2.vhd : (81, 15): Keyword 'end' expected.
+# Compile Package Body "q2"
+# Error: COMP96_0015: q2.vhd : (94, 64): ')' expected.
+# Error: COMP96_0019: q2.vhd : (94, 64): Keyword 'return' expected.
+# Error: COMP96_0020: q2.vhd : (95, 6): Variable can be declared only in a process or subprogram.
+# Error: COMP96_0020: q2.vhd : (96, 6): Variable can be declared only in a process or subprogram.
+# Error: COMP96_0019: q2.vhd : (97, 2): Keyword 'end' expected.
+# Error: COMP96_0015: q2.vhd : (97, 2): ';' expected.
+# Error: COMP96_0016: q2.vhd : (98, 6): Design unit declaration expected.
+# Error: COMP96_0018: q2.vhd : (106, 17): Identifier expected.
+# Compile Entity "fsm_dec"
+# Error: COMP96_0015: q2.vhd : (115, 2): ';' expected.
+# Compile Architecture "behavioral" of Entity "fsm_dec"
+# Error: COMP96_0015: q2.vhd : (146, 17): ';' expected.
+# Error: COMP96_0019: q2.vhd : (146, 17): Keyword 'end' expected.
+# Error: COMP96_0015: q2.vhd : (152, 17): ';' expected.
+# Error: COMP96_0019: q2.vhd : (152, 17): Keyword 'end' expected.
+# Error: COMP96_0015: q2.vhd : (156, 7): ';' expected.
+# Error: COMP96_0016: q2.vhd : (156, 11): Design unit declaration expected.
+# Error: COMP96_0018: q2.vhd : (164, 17): Identifier expected.
+# Compile failure 31 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work q2 -2002  $dsn/src/q2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/cad/HW4_99400064/q2/q2/src/q2.vhd
+# Compile Package "q2"
+# Error: COMP96_0019: q2.vhd : (6, 5): Keyword 'end' expected.
+# Error: COMP96_0015: q2.vhd : (6, 5): ';' expected.
+# Error: COMP96_0016: q2.vhd : (6, 12): Design unit declaration expected.
+# Error: COMP96_0018: q2.vhd : (10, 15): Identifier expected.
+# Compile Architecture "FSM" of Entity "sequence_detectore"
+# Error: COMP96_0056: q2.vhd : (12, 5): Cannot find referenced entity declaration "sequence_detectore".
+# Compile Entity "second_sequence_detectore"
+# Error: COMP96_0078: q2.vhd : (45, 27): Unknown identifier "std_logic".
+# Error: COMP96_0064: q2.vhd : (45, 27): Unknown type.
+# Error: COMP96_0078: q2.vhd : (46, 32): Unknown identifier "std_logic".
+# Error: COMP96_0064: q2.vhd : (46, 32): Unknown type.
+# Error: COMP96_0078: q2.vhd : (47, 34): Unknown identifier "std_logic".
+# Error: COMP96_0064: q2.vhd : (47, 34): Unknown type.
+# Compile Architecture "FSM2" of Entity "second_sequence_detectore"
+# Error: COMP96_0056: q2.vhd : (50, 5): Cannot find referenced entity declaration "second_sequence_detectore".
+# Error: COMP96_0016: q2.vhd : (79, 2): Design unit declaration expected.
+# Compile Package "q2"
+# Error: COMP96_0019: q2.vhd : (81, 15): Keyword 'is' expected.
+# Error: COMP96_0019: q2.vhd : (81, 15): Keyword 'end' expected.
+# Compile Package Body "q2"
+# Error: COMP96_0015: q2.vhd : (94, 64): ')' expected.
+# Error: COMP96_0019: q2.vhd : (94, 64): Keyword 'return' expected.
+# Error: COMP96_0020: q2.vhd : (95, 6): Variable can be declared only in a process or subprogram.
+# Error: COMP96_0020: q2.vhd : (96, 6): Variable can be declared only in a process or subprogram.
+# Error: COMP96_0019: q2.vhd : (97, 2): Keyword 'end' expected.
+# Error: COMP96_0015: q2.vhd : (97, 2): ';' expected.
+# Error: COMP96_0016: q2.vhd : (98, 6): Design unit declaration expected.
+# Error: COMP96_0018: q2.vhd : (106, 17): Identifier expected.
+# Compile Entity "fsm_dec"
+# Error: COMP96_0015: q2.vhd : (115, 2): ';' expected.
+# Compile Architecture "behavioral" of Entity "fsm_dec"
+# Error: COMP96_0015: q2.vhd : (146, 17): ';' expected.
+# Error: COMP96_0019: q2.vhd : (146, 17): Keyword 'end' expected.
+# Error: COMP96_0015: q2.vhd : (152, 17): ';' expected.
+# Error: COMP96_0019: q2.vhd : (152, 17): Keyword 'end' expected.
+# Error: COMP96_0015: q2.vhd : (156, 7): ';' expected.
+# Error: COMP96_0016: q2.vhd : (156, 11): Design unit declaration expected.
+# Error: COMP96_0018: q2.vhd : (164, 17): Identifier expected.
+# Compile failure 31 Errors 0 Warnings  Analysis time :  15.0 [ms]

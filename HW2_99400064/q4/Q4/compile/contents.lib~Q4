@@ -1,0 +1,6 @@
+59
+~E 1 "../src/Q4.vhd" 6 alarm_clock
+~A 1 "../src/Q4.vhd" 21 Behavioral
+~E 1 "../src/Q4.vhd" 87 alarm_clock_tb
+~A 1 "../src/TestBench/alarm_clock_TB.vhd" 9 TB_ARCHITECTURE
+~C 1 "../src/TestBench/alarm_clock_TB.vhd" 122 testbench_for_alarm_clock

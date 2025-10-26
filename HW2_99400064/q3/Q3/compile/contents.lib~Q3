@@ -1,0 +1,6 @@
+26
+~E 1 "../src/Q3.vhd" 5 Q3
+~A 1 "../src/Q3.vhd" 11 Behavioral
+~E 1 "../src/Q3.vhd" 47 q3_tb
+~A 1 "../src/TestBench/q3_TB.vhd" 8 TB_ARCHITECTURE
+~C 1 "../src/TestBench/q3_TB.vhd" 40 testbench_for_q3

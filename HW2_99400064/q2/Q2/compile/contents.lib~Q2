@@ -1,0 +1,6 @@
+22
+~E 1 "../src/Q2.vhd" 6 Radical
+~A 1 "../src/Q2.vhd" 13 Behavioral
+~E 1 "../src/TestBench/radical_TB.vhd" 8 radical_tb
+~A 1 "../src/TestBench/radical_TB.vhd" 9 TB_ARCHITECTURE
+~C 1 "../src/TestBench/radical_TB.vhd" 35 testbench_for_radical

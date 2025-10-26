@@ -1,0 +1,5 @@
+29
+~E 1 "../src/Q1.vhd" 17 my_example
+~A 1 "../src/Q1.vhd" 23 behave
+~E 1 "../src/TestBench/my_example_TB.vhd" 7 my_example_tb
+~A 1 "../src/TestBench/my_example_TB.vhd" 10 testbench

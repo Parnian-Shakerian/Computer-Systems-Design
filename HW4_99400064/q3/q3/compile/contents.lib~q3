@@ -1,0 +1,11 @@
+67
+~E 1 "../src/q3.vhd" 5 mealy_code
+~A 1 "../src/q3.vhd" 11 behavioral
+~E 1 "../src/q3.vhd" 5 mealy_fsm
+~A 1 "../src/q3.vhd" 11 behavioral
+~E 1 "../src/q3.vhd" 32 moore_code
+~A 1 "../src/q3.vhd" 39 behavioral
+~E 1 "../src/q3.vhd" 33 moore_fsm
+~A 1 "../src/q3.vhd" 41 behavioral
+~E 1 "../src/TestBench/mealy_code_TB.vhd" 4 testbench
+~A 1 "../src/TestBench/mealy_moore_code_TB.vhd" 7 behavior

@@ -1,0 +1,26 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=q3
+[Library]
+q3=.\q3\q3.lib
+[$LibMap$]
+q3=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/q3.vhd=-1
+[Files.Data]
+.\src\q3.vhd=VHDL Source Code
+[HierarchyViewer]
+HierarchyInformation=filter|Behavioral|0
+ShowHide=ShowTopLevel
+Selected=
