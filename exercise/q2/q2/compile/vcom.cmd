@@ -1,0 +1,1 @@
+-w -erf "F:/midterm group12/q2/q2/compile/q2.erf" -d "F:/midterm group12/q2/q2/compile" -s "F:/midterm group12/q2/library.cfg" -j "F:/midterm group12/q2/q2/projlib.cfg" -work q2 -O3 -e 100 -work q2 -2002 "F:/midterm group12/q2/q2/src/q2.vhd" 

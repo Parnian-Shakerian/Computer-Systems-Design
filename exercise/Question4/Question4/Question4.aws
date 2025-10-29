@@ -1,0 +1,12 @@
+[Version]
+Version=13.0
+[Designs]
+q4=.\q4\q4.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+q4=1

@@ -1,0 +1,5 @@
+.\src\MainComponent.vhd
+.\src\NBitAdder.vhd
+.\src\OutputGenerator.vhd
+.\src\CheckEvenOnes.vhd
+.\src\FullAdder.vhd

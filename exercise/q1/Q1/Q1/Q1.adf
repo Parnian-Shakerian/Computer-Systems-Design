@@ -1,0 +1,26 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Q1
+[Library]
+Q1=.\Q1\Q1.lib
+[$LibMap$]
+Q1=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/Q1.vhd=-1
+[Files.Data]
+.\src\Q1.vhd=VHDL Source Code
+[HierarchyViewer]
+HierarchyInformation=counter_tb|behavioral|0
+ShowHide=ShowTopLevel
+Selected=

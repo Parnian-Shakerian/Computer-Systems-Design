@@ -1,0 +1,7 @@
+10
+~E 1 "../src/q4.vhd" 27 d_reg
+~A 1 "../src/q4.vhd" 34 behavioral
+~E 1 "../src/q4.vhd" 7 jkff
+~A 1 "../src/q4.vhd" 10 behavior
+~E 1 "../src/TestBench/d_reg_TB.vhd" 5 tb_d_reg
+~A 1 "../src/TestBench/d_reg_TB.vhd" 8 behavior

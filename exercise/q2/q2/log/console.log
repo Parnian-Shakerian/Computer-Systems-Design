@@ -1,0 +1,14 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work q2 -2002  $dsn/src/q2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/midterm group12/q2/q2/src/q2.vhd
+# Compile Entity "ha"
+# Compile Architecture "behavioral" of Entity "ha"
+# Compile Entity "fa"
+# Compile Architecture "behavioral" of Entity "fa"
+# Compile Entity "bcd_adder"
+# Compile Architecture "behavioral" of Entity "bcd_adder"
+# Compile Entity "bcd_sum"
+# Compile Architecture "behavioral" of Entity "bcd_sum"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]

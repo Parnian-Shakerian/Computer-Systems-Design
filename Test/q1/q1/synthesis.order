@@ -1,0 +1,5 @@
+i<>.\src\q1.vhd
+i<>.\src\NBitAdder.vhd
+i<>.\src\OutputGenerator.vhd
+i<>.\src\CheckEvenOnes.vhd
+i<>.\src\FullAdder.vhd

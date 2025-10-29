@@ -1,0 +1,5 @@
+1
+~E 1 "../src/Q1.vhd" 5 counter
+~A 1 "../src/Q1.vhd" 15 behavioral
+~E 1 "../src/Q1.vhd" 38 counter_tb
+~A 1 "../src/Q1.vhd" 41 behavioral

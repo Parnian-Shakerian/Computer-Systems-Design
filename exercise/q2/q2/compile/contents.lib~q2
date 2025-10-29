@@ -1,0 +1,9 @@
+3
+~E 1 "../src/q2.vhd" 48 bcd_adder
+~A 1 "../src/q2.vhd" 56 behavioral
+~E 1 "../src/q2.vhd" 84 bcd_sum
+~A 1 "../src/q2.vhd" 93 behavioral
+~E 1 "../src/q2.vhd" 26 fa
+~A 1 "../src/q2.vhd" 33 behavioral
+~E 1 "../src/q2.vhd" 5 ha
+~A 1 "../src/q2.vhd" 12 behavioral

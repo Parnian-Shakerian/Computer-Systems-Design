@@ -1,0 +1,16 @@
+acom -O3 -e 100 -work q2 -2002  $dsn/src/q2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/cad/q2/q2/src/q2.vhd
+# Compile Package "q2"
+# Compile Package Body "q2"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work q2 -2002  $dsn/src/q2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/cad/q2/q2/src/q2.vhd
+# Compile Package "q2"
+# Compile Package Body "q2"
+# Compile Entity "Calculator"
+# Compile Architecture "Behavioral" of Entity "Calculator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]

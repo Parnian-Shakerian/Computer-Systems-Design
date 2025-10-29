@@ -1,0 +1,1 @@
+-w -erf F:/cad/q1/q1/compile/q1.erf -d F:/cad/q1/q1/compile -s F:/cad/q1/library.cfg -j F:/cad/q1/q1/projlib.cfg -work q1 -O3 -e 100 -work q1 -2002 F:/cad/q1/q1/src/MainComponent.vhd F:/cad/q1/q1/src/NBitAdder.vhd F:/cad/q1/q1/src/OutputGenerator.vhd F:/cad/q1/q1/src/CheckEvenOnes.vhd F:/cad/q1/q1/src/FullAdder.vhd 

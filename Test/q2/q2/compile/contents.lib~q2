@@ -1,0 +1,13 @@
+25
+~E 1 "../src/q2.vhd" 41 Calculator
+~A 1 "../src/q2.vhd" 49 Behavioral
+~E 1 "../src/q2.vhd" 140 CheckEvenOnes
+~A 1 "../src/q2.vhd" 147 Behavioral
+~E 1 "../src/q2.vhd" 167 FullAdder
+~A 1 "../src/q2.vhd" 174 Behavioral
+~E 1 "../src/q2.vhd" 5 MainComponent
+~A 1 "../src/q2.vhd" 15 Behavioral
+~E 1 "../src/q2.vhd" 81 NBitAdder
+~A 1 "../src/q2.vhd" 93 Behavioral
+~E 1 "../src/q2.vhd" 121 OutputGenerator
+~A 1 "../src/q2.vhd" 131 Behavioral

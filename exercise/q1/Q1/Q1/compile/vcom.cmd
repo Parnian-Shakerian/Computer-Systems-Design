@@ -1,0 +1,1 @@
+-w -erf "F:/midterm group12/q1/Q1/Q1/compile/Q1.erf" -d "F:/midterm group12/q1/Q1/Q1/compile" -s "F:/midterm group12/q1/Q1/library.cfg" -j "F:/midterm group12/q1/Q1/Q1/projlib.cfg" -work Q1 -reorder -O3 -e 100 -work Q1 -2002 "F:/midterm group12/q1/Q1/Q1/src/Q1.vhd" 

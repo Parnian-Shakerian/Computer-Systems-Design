@@ -1,0 +1,16 @@
+# Design: Design Q1 already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -O3 -e 100 -work Q1 -2002  $dsn/src/Q1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/midterm group12/q1/Q1/Q1/src/Q1.vhd
+# Compile Entity "counter"
+# Compile Architecture "behavioral" of Entity "counter"
+# Compile Entity "counter_tb"
+# Compile Architecture "behavioral" of Entity "counter_tb"
+# Top-level unit(s) detected:
+# Entity => counter_tb
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].

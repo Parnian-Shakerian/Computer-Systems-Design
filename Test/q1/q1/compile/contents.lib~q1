@@ -1,0 +1,16 @@
+77
+~E 1 "../src/q1.vhd" 6 BinaryCalculator
+~A 1 "../src/q1.vhd" 13 Behavioral
+~E 1 "../src/TestBench/binarycalculator_TB.vhd" 5 binarycalculator_tb
+~A 1 "../src/TestBench/binarycalculator_TB.vhd" 8 TB_ARCHITECTURE
+~E 1 "../src/CheckEvenOnes.vhd" 4 CheckEvenOnes
+~A 1 "../src/CheckEvenOnes.vhd" 11 Behavioral
+~E 1 "../src/FullAdder.vhd" 4 FullAdder
+~A 1 "../src/FullAdder.vhd" 11 Behavioral
+~E 1 "../src/q1.vhd" 4 MainComponent
+~A 1 "../src/MainComponent.vhd" 14 Behavioral
+~E 1 "../src/q1.vhd" 4 NBitAdder
+~A 1 "../src/NBitAdder.vhd" 16 Behavioral
+~E 1 "../src/OutputGenerator.vhd" 4 OutputGenerator
+~A 1 "../src/OutputGenerator.vhd" 14 Behavioral
+~C 1 "../src/TestBench/binarycalculator_TB.vhd" 63 testbench_for_binarycalculator

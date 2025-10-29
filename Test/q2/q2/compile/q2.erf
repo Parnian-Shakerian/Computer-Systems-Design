@@ -1,0 +1,7 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: F:/cad/q2/q2/src/q2.vhd" 
+MESSAGE "Compile Package "q2"" 
+MESSAGE "Compile Package Body "q2"" 
+MESSAGE "Compile Entity "Calculator"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "Calculator"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]" 
